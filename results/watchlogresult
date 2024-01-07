@@ -1,0 +1,13 @@
+[vagrant@localhost ~]$ sudo tail -f /var/log/messages
+Jan  7 09:56:09 localhost systemd: Started My Watchlog service.
+Jan  7 09:57:59 localhost systemd: Starting My Watchlog service...
+Jan  7 09:57:59 localhost systemd: Starting Cleanup of Temporary Directories...
+Jan  7 09:57:59 localhost root: Sun Jan  7 09:57:59 UTC 2024: I found word, Master!
+Jan  7 09:57:59 localhost systemd: Started My Watchlog service.
+Jan  7 09:57:59 localhost systemd: Started Cleanup of Temporary Directories.
+Jan  7 09:58:27 localhost systemd: Created slice User Slice of vagrant.
+Jan  7 09:58:27 localhost systemd: Started Session 4 of user vagrant.
+Jan  7 09:58:27 localhost systemd-logind: New session 4 of user vagrant.
+Jan  7 09:59:01 localhost systemd: Starting My Watchlog service...
+Jan  7 09:59:01 localhost root: Sun Jan  7 09:59:01 UTC 2024: I found word, Master!
+Jan  7 09:59:01 localhost systemd: Started My Watchlog service.

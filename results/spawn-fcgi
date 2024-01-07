@@ -1,0 +1,40 @@
+[vagrant@localhost ~]$ systemctl status spawn-fcgi
+● spawn-fcgi.service - LSB: Start and stop FastCGI processes
+   Loaded: loaded (/etc/rc.d/init.d/spawn-fcgi; bad; vendor preset: disabled)
+   Active: active (running) since Sun 2024-01-07 10:21:28 UTC; 7min ago
+     Docs: man:systemd-sysv-generator(8)
+  Process: 2585 ExecStart=/etc/rc.d/init.d/spawn-fcgi start (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/spawn-fcgi.service
+           ├─2597 /usr/bin/php-cgi
+           ├─2598 /usr/bin/php-cgi
+           ├─2599 /usr/bin/php-cgi
+           ├─2600 /usr/bin/php-cgi
+           ├─2601 /usr/bin/php-cgi
+           ├─2602 /usr/bin/php-cgi
+           ├─2603 /usr/bin/php-cgi
+           ├─2604 /usr/bin/php-cgi
+           ├─2605 /usr/bin/php-cgi
+           ├─2606 /usr/bin/php-cgi
+           ├─2607 /usr/bin/php-cgi
+           ├─2608 /usr/bin/php-cgi
+           ├─2609 /usr/bin/php-cgi
+           ├─2610 /usr/bin/php-cgi
+           ├─2611 /usr/bin/php-cgi
+           ├─2612 /usr/bin/php-cgi
+           ├─2613 /usr/bin/php-cgi
+           ├─2614 /usr/bin/php-cgi
+           ├─2615 /usr/bin/php-cgi
+           ├─2616 /usr/bin/php-cgi
+           ├─2617 /usr/bin/php-cgi
+           ├─2618 /usr/bin/php-cgi
+           ├─2619 /usr/bin/php-cgi
+           ├─2620 /usr/bin/php-cgi
+           ├─2621 /usr/bin/php-cgi
+           ├─2622 /usr/bin/php-cgi
+           ├─2623 /usr/bin/php-cgi
+           ├─2624 /usr/bin/php-cgi
+           ├─2625 /usr/bin/php-cgi
+           ├─2626 /usr/bin/php-cgi
+           ├─2627 /usr/bin/php-cgi
+           ├─2628 /usr/bin/php-cgi
+           └─2629 /usr/bin/php-cgi
